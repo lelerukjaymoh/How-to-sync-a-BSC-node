@@ -29,6 +29,7 @@ mv server/data-seed/geth/triecache mainnet/geth/triecache
 ./geth_linux --config ./config.toml --datadir ./mainnet --cache 100000 --rpc.allow-unprotected-txs --txlookuplimit 0 --http --maxpeers 100 --ws --syncmode=full --snapshot=false --diffsync
 ```
 
+</ br></ br>
 Note:
 	- Geth syncing should be run in a screen session to ensure the process continues even after the ssh session is closed 
 	- If you are using the latest snapshot and notice that the age more than 2 years, most likely you have an eror in you sync setup
