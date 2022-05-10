@@ -10,7 +10,8 @@
 Your full node has to run at least 4 hours per 24 hours in order to catch up with Binance Chain More hours will be better, run your node continuously for best results. </br></br></br>
 
 > The specifications listed above are high end but will ensure you have a smooth sync process with fewer prunning. If you want the minimum specification requirements have a look here [Minimum System Requirements](https://docs.binance.org/guides/node/join-mainnet.html).
-> Server suggstion: Hetzner AX61-NVMe 
+
+> Server recommendation: Hetzner AX61-NVMe 
 
 
 </br>
