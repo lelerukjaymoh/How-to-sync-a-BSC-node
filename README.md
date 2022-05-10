@@ -1,4 +1,22 @@
 
+# How To Sync a BSC Node
+
+### System requirements
+
+- Desktop or laptop hardware running recent versions of Mac OS X, Windows, or Linux.
+- 2TB of free disk space, accessible at a minimum read/write speed of 100 MB/s.
+- 8 cores of CPU and 16 gigabytes of memory (RAM).
+- A broadband Internet connection with upload/download speeds of at least 1 megabyte per second
+Your full node has to run at least 4 hours per 24 hours in order to catch up with Binance Chain More hours will be better, run your node continuously for best results. </br></br></br>
+
+> The specifications listed above are high end but will ensure you have a smooth sync process with fewer prunning. If you want the minimum specification requirements have a look here [Minimum System Requirements](https://docs.binance.org/guides/node/join-mainnet.html).
+> Server suggstion: Hetzner AX61-NVMe 
+
+
+</br>
+
+### Sync Process
+
 1. Download geth and mainnet using wget from the link below
 	https://github.com/bnb-chain/bsc/releases/tag/v1.1.8 - Where v1.1.8 is the current latest version (as of 8th March 2022)
 
@@ -38,4 +56,4 @@ mv server/data-seed/geth/triecache mainnet/geth/triecache
 
 
 
-									HAPPY SYNCING
+							HAPPY SYNCING
