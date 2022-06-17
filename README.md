@@ -19,17 +19,30 @@ Your full node has to run at least 4 hours per 24 hours in order to catch up wit
 ### Sync Process
 
 1. Download geth and mainnet using wget from the link below
-	[https://github.com/bnb-chain/bsc/releases/tag/v1.1.8](https://github.com/bnb-chain/bsc/releases/download/v1.1.11/geth_linux) - Where v1.1.11 is the current latest version (as of 17th June 2022)
+	[https://github.com/bnb-chain/bsc/releases/tag/v1.1.8/geth_linux](https://github.com/bnb-chain/bsc/releases/download/v1.1.11/geth_linux) - Where v1.1.11 is the current latest version (as of 17th June 2022)
 	
 ```
 wget https://github.com/bnb-chain/bsc/releases/download/v1.1.11/geth_linux
 ```
+```
+wget https://github.com/bnb-chain/bsc/releases/download/v1.1.11/mainnet.zip
+```
+
 
 2. Make the geth_linux downloaded executable
-3. Unzip the mainnet
-4. move config.toml and genesis.json to the root folder
-5. run the command ./geth_linux --datadir ./mainnet init genesis.json to generate genesis
-6. Download the latest snapshot from https://github.com/bnb-chain/bsc-snapshots by using the command below
+
+```
+chmod +X geth_linux
+```
+4. Unzip the mainnet.zip file. You may need to [install unzip](https://askubuntu.com/questions/86849/how-to-unzip-a-zip-file-from-the-terminal) if you dont have it in your machine 
+```
+unzip mainnet.zip
+```
+5. Generate the genesis block by runnin the command below 
+```
+./geth_linux --datadir ./mainnet init genesis.json
+```
+7. Download the latest snapshot from https://github.com/bnb-chain/bsc-snapshots by using the command below
 ```
 wget -q -O - <snapshot URL> | tar -I lz4 -xvf -
 ```
