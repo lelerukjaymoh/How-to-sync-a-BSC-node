@@ -32,7 +32,7 @@ wget https://github.com/bnb-chain/bsc/releases/download/v1.1.11/mainnet.zip
 2. Make the geth_linux downloaded executable
 
 ```
-chmod +X geth_linux
+chmod +x geth_linux
 ```
 4. Unzip the mainnet.zip file. You may need to [install unzip](https://askubuntu.com/questions/86849/how-to-unzip-a-zip-file-from-the-terminal) if you dont have it in your machine 
 ```
