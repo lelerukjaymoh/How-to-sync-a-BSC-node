@@ -48,13 +48,15 @@ wget -q -O - <snapshot URL> | tar -I lz4 -xvf -
 ```
 
 7. Replacing the <snapshot URL> with "THE_URL_TO_THE_LATEST_GETH"   (quotation marks included)
-8. Once downloaded extract it. It will be extracted to the server folder on the downloaded folder. 
+8. Once downloaded, it will be extracted to a folder named server folder on the downloaded folder. 
 9. Delete the chaindata and triecache data from the datadir folder (mainnet) if it already exists to sync afresh. Use the commands provided below
-10. Move the chaindata and triecache data of the downloaded snapshot to your datadir (mainnet) using  the commands below
-
 ```
 rm -rf mainnet/geth/chaindata
 rm -rf mainnet/geth/triecache
+```
+10. Move the chaindata and triecache data of the downloaded snapshot to your datadir (mainnet) using  the commands below
+
+```
 mv server/data-seed/geth/chaindata mainnet/geth/chaindata
 mv server/data-seed/geth/triecache mainnet/geth/triecache
 ```
