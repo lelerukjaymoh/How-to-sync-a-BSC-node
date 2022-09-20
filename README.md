@@ -47,7 +47,7 @@ unzip mainnet.zip
 wget -q -O - <snapshot URL> | tar -I lz4 -xvf -
 ```
 
-7. Replacing the <snapshot URL> with "THE_URL_TO_THE_LATEST_GETH"   (quotation marks included)
+7. Replacing the <snapshot URL> with "THE_URL_TO_THE_LATEST_SNAPSHOT"   (quotation marks included)
 8. Once downloaded, it will be extracted to a folder named server folder on the downloaded folder. 
 9. Delete the chaindata and triecache data from the datadir folder (mainnet) if it already exists to sync afresh. Use the commands provided below
 ```
