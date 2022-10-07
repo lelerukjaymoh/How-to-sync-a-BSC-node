@@ -19,7 +19,7 @@ Your full node has to run at least 4 hours per 24 hours in order to catch up wit
 ### Sync Process
 
 1. Download geth and mainnet using wget from the link below
-	[https://github.com/bnb-chain/bsc/releases/tag/v1.1.8/geth_linux](https://github.com/bnb-chain/bsc/releases/download/v1.1.11/geth_linux) - Where v1.1.11 is the current latest version (as of 17th June 2022)
+	[https://github.com/bnb-chain/bsc/releases/tag/v1.1.11/geth_linux](https://github.com/bnb-chain/bsc/releases/download/v1.1.11/geth_linux) - Where v1.1.11 is the current latest version (as of 17th June 2022)
 	
 ```
 wget https://github.com/bnb-chain/bsc/releases/download/v1.1.11/geth_linux
